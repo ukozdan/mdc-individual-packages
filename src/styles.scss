@@ -1,0 +1,97 @@
+//----------------------------------------
+// @use
+//----------------------------------------
+
+@use '@material/animation';
+@use '@material/banner/styles';
+@use '@material/button/styles' as b-styles;
+@use '@material/card';
+@use '@material/checkbox';
+@use '@material/form-field';
+@use '@material/chips/styles' as c-styles;
+@use '@material/circular-progress/mdc-circular-progress';
+//@use '@material/checkbox';  // duplicate
+@use '@material/icon-button'; // Data tables: required only for column sorting.
+@use '@material/icon-button/mdc-icon-button';
+@use '@material/data-table/data-table';
+@use '@material/button';
+@use '@material/button/mdc-button';
+@use '@material/dialog';
+@use '@material/drawer';
+@use '@material/list';
+@use '@material/elevation/mdc-elevation';
+@use '@material/fab';
+@use '@material/feature-targeting';
+@use '@material/floating-label/mdc-floating-label';
+//@use '@material/icon-button'; // duplicate
+@use '@material/image-list/mdc-image-list';
+@use '@material/image-list';
+@use '@material/layout-grid/mdc-layout-grid';
+@use '@material/line-ripple/mdc-line-ripple';
+@use '@material/linear-progress';
+//@use '@material/list'; // duplicate
+@use '@material/menu-surface/mdc-menu-surface';
+@use '@material/list/mdc-list';
+//@use '@material/menu-surface/mdc-menu-surface'; // duplicate
+@use '@material/menu/mdc-menu';
+@use '@material/notched-outline/mdc-notched-outline';
+@use '@material/radio/styles' as d-styles;
+//@use '@material/form-field'; // duplicate
+@use '@material/ripple';
+@use '@material/ripple/common';
+@use '@material/segmented-button/styles' as e-styles;
+//@use '@material/list/mdc-list'; // duplicate
+//@use '@material/menu-surface/mdc-menu-surface'; // duplicate
+//@use '@material/menu/mdc-menu'; // duplicate
+@use '@material/select/styles' as f-styles;
+@use '@material/select';
+@use '@material/shape';
+@use '@material/slider/styles' as g-styles;
+@use '@material/snackbar/mdc-snackbar';
+@use '@material/switch/styles' as h-styles;
+@use '@material/tab-bar/mdc-tab-bar';
+@use '@material/tab-scroller/mdc-tab-scroller';
+@use '@material/tab-indicator/mdc-tab-indicator';
+@use '@material/tab/mdc-tab';
+//@use '@material/tab-indicator/mdc-tab-indicator'; // duplicate
+//@use '@material/tab-scroller/mdc-tab-scroller'; // duplicate
+//@use '@material/tab/mdc-tab'; // duplicate
+//@use '@material/floating-label/mdc-floating-label'; // duplicate
+//@use '@material/line-ripple/mdc-line-ripple'; // duplicate
+//@use '@material/notched-outline/mdc-notched-outline'; // duplicate
+@use '@material/textfield';
+@use '@material/tooltip/styles' as i-styles;
+//@use '@material/icon-button'; // duplicate
+@use '@material/top-app-bar/mdc-top-app-bar';
+@use '@material/touch-target/mdc-touch-target';
+@use '@material/typography/mdc-typography';
+
+//----------------------------------------
+// @include
+//----------------------------------------
+
+@include card.core-styles;
+@include checkbox.core-styles;
+@include form-field.core-styles;
+@include checkbox.core-styles;
+//@include icon-button.core-styles; // Undefined mixin
+@include data-table.core-styles;
+@include data-table.theme-baseline;
+@include dialog.core-styles;
+@include drawer.core-styles;
+@include drawer.dismissible-core-styles;
+@include drawer.modal-core-styles;
+@include list.deprecated-core-styles;
+@include fab.core-styles;
+//@include icon-button.core-styles; // duplicate
+@include linear-progress.core-styles;
+@include list.deprecated-core-styles;
+@include form-field.core-styles;
+@include textfield.core-styles;
+//@include icon-button.core-styles; // duplicate
+
+//----------------------------------------
+// 
+//----------------------------------------
+
+@import "https://fonts.googleapis.com/icon?family=Material+Icons";
